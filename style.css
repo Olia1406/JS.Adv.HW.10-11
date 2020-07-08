@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid #000; */
+    border-radius: 5px;
+
+}
+
+.container{
+    margin: 50px auto;
+    width: 1050px;
+    height: 400px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.form-container{
+    width: 440px;
+    height: 350px;
+}
+.form-item{
+    height: 70px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+input{
+    width: 350px;
+    height: 40px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(131, 119, 119);
+}
+label{
+    margin: 5px;
+}
+.add,
+.save{
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    color: green;
+    border: 1px solid green;
+    outline: none;
+}
+.add:hover,
+.save:hover{
+    background-color: green;
+    color: white;
+}
+.table-container{
+    width: 550px;
+    height: 350px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.tt{
+  width: 480px;  
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+   border-bottom: 1px solid #ddd;
+   border-top: 1px solid #ddd;
+   border-radius: 0;
+   padding: 8px;
+   text-align: center;
+}
+.edit{
+    width: 50px; 
+    height: 30px; 
+    background-color: rgb(255, 208, 0); 
+    border:none;
+}
+.delete{
+    width: 60px; 
+    height: 30px; 
+    color: white;
+    background-color: rgb(190, 43, 23); 
+    border:none; 
+}

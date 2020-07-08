@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form action="" name="f1" class="fm">
+                <div class="form-item">
+                    <label for="login">Login</label>
+                    <input type="text" placeholder="Enter login"  required >
+                </div>
+                <div class="form-item">
+                    <label for="login">Password</label>
+                    <input type="password" placeholder="Enter password"  >
+                </div>
+                <div class="form-item">
+                    <label for="login">Email address</label>
+                    <input type="text" placeholder="Enter address"  >
+                </div>
+                <button onclick="addUser()" type="text" class="add" style="display: block;">Add user</button>
+                <button onclick="saveEditUser()" type="text" class="save" style="display: none;">Save edit</button>
+            </form>
+        </div>
+        <div class="table-container">
+            <table class="tt">
+                    <tr>
+                       <th>#</th>
+                       <th>Login</th>
+                       <th>Password</th>
+                       <th>Email</th>
+                       <th>Edit</th>
+                       <th>Delete</th>
+                    </tr>
+        
+            </table>
+
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
